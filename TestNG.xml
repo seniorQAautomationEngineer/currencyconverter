@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="API Suite" parallel= "none">
+  <test name="Converter test cases">
+    <parameter name="environment" value="qa"/>
+    <classes>
+      <class name="com.rapidapi.converter.ConverterTests"/>
+    </classes>
+
+  </test>
+
+</suite>
+
+
